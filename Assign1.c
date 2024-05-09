@@ -1,3 +1,6 @@
+/*This program list the files in a directory and says what they are. Two directories are needed in the command line*/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <dirent.h>

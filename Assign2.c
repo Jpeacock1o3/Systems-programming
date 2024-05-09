@@ -1,3 +1,5 @@
+/*This code allows you to open a file and select where you want to start and output a selected amount of bytes*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

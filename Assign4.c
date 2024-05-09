@@ -1,3 +1,5 @@
+/*This code forks n processes and outputs it into the terminal*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

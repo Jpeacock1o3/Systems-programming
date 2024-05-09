@@ -1,3 +1,5 @@
+/*This code allows the user to search through a file for a specified string and replace it with another string*/
+
 #include <stdio.h>
 #include <string.h>
 int main(int argc, char *argv[]) {
