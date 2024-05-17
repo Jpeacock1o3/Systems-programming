@@ -1,3 +1,8 @@
+/*This assignment involves creating a program that reads and displays information from the host,
+network, protocol, and services databases. The program outputs host names, address types, 
+and addresses; network names and numbers; protocol names and numbers; and service names, ports, 
+and protocols, displaying all information to the standard output.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

@@ -1,3 +1,9 @@
+/*This assignment involves creating a threaded program to simulate deadlocks using mutex locks. 
+The program takes a number (1 to 10) as a command line argument, creates that many threads, 
+and each thread locks two mutexes in different orders based on its number, 
+then sleeps to induce potential deadlocks. 
+The main routine periodically checks for deadlocks using pthread_mutex_trylock. 
+If the number of failed lock attempts equals or exceeds the number of threads, it declares a deadlock.*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>

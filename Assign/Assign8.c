@@ -1,3 +1,9 @@
+/*This assignment involves creating a program that takes a number from 1 to 10 as a command line argument, 
+creates that many threads, and each thread runs a predefined shell command.
+The threads execute the commands, print their process and thread IDs, and exit with a status code. 
+The main program waits for all threads to complete, then prints their exit statuses.
+This 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>

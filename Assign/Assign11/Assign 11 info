@@ -1,0 +1,5 @@
+This assignment involves writing a server and client program to communicate using the UDP protocol. 
+The server takes an IP address and port as command line arguments, binds to them, and waits for incoming messages, 
+displaying the sender's address, port, and message content. The client takes the server's address and port as 
+arguments and sends a simple message to the server. Both programs handle necessary conversions for IP addresses and 
+ports, create and bind sockets, and use the appropriate system calls for sending and receiving messages. 

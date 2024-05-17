@@ -1,4 +1,6 @@
-/**/
+/*this code creates a file and waits a certain amount of time that the user inputs to
+output to the file using SIGALRM
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
